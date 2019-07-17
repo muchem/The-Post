@@ -90,16 +90,6 @@ nav{
     background-color:rgb(10, 10, 10);
     padding:20px;
   }
-  .carousel-control-prev{
-      position:relative;
-      top:50%;
-      margin-top:20px;
-      padding:30px;
-  }
-  .carousel-control-prev-icon{
-    margin-top:20px;
-    padding:30px;
-  }
   @media screen and (max-width:768px){
     .img{
         height:300px;

@@ -83,13 +83,13 @@ footer{
     color:white;
     width:100px;
 }
-@media screen and(max-width:1024px){
+@media screen and (max-width:1024px){
     
 }
-@media screen and(max-width:992px){
+@media screen and (max-width:992px){
 
 }
-@media screen and(max-width:768px){
+@media screen and (max-width:768px){
     li{
         font-size:12px;
     }
@@ -97,9 +97,12 @@ footer{
         width:30px;
         height:30px;
     }
+    .c0l-sm-10,.col-sm-6{
+        text-align: center;
+    }
 }
-@media screen and(max-width:576px){
-  .header{
+@media screen and (max-width:576px){
+  .c0l-sm-10,.col-sm-6{
       text-align: center;
   }
   li{
