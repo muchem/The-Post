@@ -19,13 +19,7 @@
     top:0;
     left:$left;
  }
- #orgin-img{
-    &:hover{
-        margin-left:10px;
-        transition:.1.5s;
-       
-    }
- }
+
  .text-box-2{
      text-align:center;
      position:relative;
@@ -33,7 +27,13 @@
     left:50%;
      transform:translate(-50% , -50%);
  }
-
+.text-box-3{
+    text-align:center;
+     position:relative;
+     top:50%;
+    left:20%;
+     transform:translate(-50% , -50%);
+}
  .hero-2{
     @include position();
      @include background-img("https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1349,c_fill,g_auto,h_759,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190430171751-mona-lisa.jpg");
