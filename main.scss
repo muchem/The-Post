@@ -1,0 +1,54 @@
+ @mixin background-img($url){
+    background-image:url($url);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:70vh;
+
+ }
+ @mixin position(){
+    width:100%;
+    position:relative;
+    overflow:hidden;
+ }
+ @mixin Hover($left,$color){
+    background:$color;
+    height: 100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:$left;
+ }
+ .text-box-2{
+     text-align:center;
+     position:relative;
+     top:50%;
+    left:50%;
+     transform:translate(-50% , -50%);
+ }
+
+ .hero-2{
+    @include position();
+     @include background-img("https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1349,c_fill,g_auto,h_759,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190430171751-mona-lisa.jpg");
+
+ }
+
+.hero-5{
+   
+    @include position();
+    @include background-img('https://dynaimage.cdn.cnn.com/cnn/q_auto,w_643,c_fill,g_auto,h_362,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190211112114-adut-akech-illustration.jpg');
+    &:hover{
+        .text-3{
+            left:0%;
+        }
+    }
+}
+.text-2{
+    @include Hover(#b900007c, -100%);
+}
+.text-3{
+    @include Hover(#780808, -100%);
+}
+.text-4{
+    @include Hover(#cb0000, -100%);
+}

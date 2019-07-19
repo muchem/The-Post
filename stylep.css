@@ -37,10 +37,12 @@ li{
 }
 .text-box{
     margin-top:30%;
-    padding-left:30px;
     
 }
+.main-img{
+    height: 80vh;
 
+}
   #img-link{
       font-size:35px;
       color:#000;
@@ -58,6 +60,33 @@ li{
 footer{
     background-color:rgb(10, 10, 10);
     padding:20px;
+}
+.show-box{
+    height:100%;
+    width:100%;
+}
+img-box{
+    height:100%;
+    width:100%;
+}
+.hero{
+    background-image:url('https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1349,c_fill,g_auto,h_759,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190617125809-03-kenneth-ize-weavers-nigeria-restricted.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:70vh;
+}
+.text{
+    background: rgba(6, 119, 72, 0.246);
+    height: 100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:100%;
+}
+.hero-2:hover .text{
+    left:0%;
+    transition:.6s;
 }
 @media screen and (max-width:1024px){
     
