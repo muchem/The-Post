@@ -41,31 +41,4 @@
 .hero-5:hover .text-3 {
   left: 0%;
 }
-
-.text-2 {
-  background: -100%;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: #b900007c;
-}
-
-.text-3 {
-  background: -100%;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: #780808;
-}
-
-.text-4 {
-  background: -100%;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: #cb0000;
-}
 /*# sourceMappingURL=main.css.map */

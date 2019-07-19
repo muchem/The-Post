@@ -11,14 +11,7 @@
     position:relative;
     overflow:hidden;
  }
- @mixin Hover($left,$color){
-    background:$color;
-    height: 100%;
-    width:100%;
-    position:absolute;
-    top:0;
-    left:$left;
- }
+
 
  .text-box-2{
      text-align:center;
@@ -50,12 +43,4 @@
         }
     }
 }
-.text-2{
-    @include Hover(#b900007c, -100%);
-}
-.text-3{
-    @include Hover(#780808, -100%);
-}
-.text-4{
-    @include Hover(#cb0000, -100%);
-}
+
