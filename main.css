@@ -1,3 +1,9 @@
+#orgin-img:hover {
+  margin-left: 10px;
+  -webkit-transition: 0.1 0.5s;
+  transition: 0.1 0.5s;
+}
+
 .text-box-2 {
   text-align: center;
   position: relative;

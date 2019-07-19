@@ -19,6 +19,13 @@
     top:0;
     left:$left;
  }
+ #orgin-img{
+    &:hover{
+        margin-left:10px;
+        transition:.1.5s;
+       
+    }
+ }
  .text-box-2{
      text-align:center;
      position:relative;
