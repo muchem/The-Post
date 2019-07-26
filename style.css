@@ -6,13 +6,12 @@
     margin-top:30px;
 }
 body{
-    background-image:url('background.jpg');
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover;
-   
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 } 
+
 .col-md-8,.col-md-4{
     padding:10px 10px 20px 20px;
 }
@@ -63,7 +62,7 @@ img{
 nav{
     background-color:black;
 }
-.right{
+.left{
   background-color:rgb(17, 17, 17);
 }
   .showcase{/*https://wallup.net/wp-content/uploads/2017/03/27/325610-women-face-digital_art-portrait-vintage-paper-old_paper-text-newspapers-paint_splatter-artwork-flowers-circle-stars.jpg*/
@@ -95,10 +94,9 @@ h6{
  p{
      font-family:sans-serif;
      font-size:18px;
+     padding-top:10px;
  }
- img{
-     
- }
+
   @media screen and (max-width:768px){
     .img{
         height:300px;
