@@ -10,7 +10,7 @@
       const api = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${'229d43347db64925ac4249aacfd8559b'}`;
       const responce = await fetch(api);
       const data =  await responce.json();
-      const {data : {articles : []}}
+    
 
    for(let i=0; i <= 9; i++){ 
    outputLeft +=  "<h1>" + data.articles[i].title +
