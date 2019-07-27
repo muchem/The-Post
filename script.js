@@ -1,5 +1,5 @@
 
-  async function getPost(){
+   async function getPost(){
       const htmlLeft = document.getElementById('left-section');
       let outputLeft = "";
       const htmlRight = document.getElementById('Right-section');
@@ -10,8 +10,9 @@
       const api = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${'229d43347db64925ac4249aacfd8559b'}`;
       const responce = await fetch(api);
       const data =  await responce.json();
+      const {data : {articles : []}}
 
-   for(let i=0; i <= 9; i++){
+   for(let i=0; i <= 9; i++){ 
    outputLeft +=  "<h1>" + data.articles[i].title +
    "<h6>" + data.articles[i].publishedAt ;
    outputLeft += "<img src = '" + data.articles[i].urlToImage + "' " + "alt='" + imgalt + "'>";
@@ -35,4 +36,4 @@
      htmlRight.innerHTML = outputRight;
    }
 
-   getPost(); 
+   getPost();
