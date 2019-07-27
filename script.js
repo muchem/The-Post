@@ -1,5 +1,5 @@
 
-    async function getPost(){
+  async function getPost(){
       const htmlLeft = document.getElementById('left-section');
       let outputLeft = "";
       const htmlRight = document.getElementById('Right-section');
@@ -36,5 +36,3 @@
    }
 
    getPost(); 
-
-   
