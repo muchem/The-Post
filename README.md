@@ -11,7 +11,7 @@ git bash
 ## Installing
  1.Clone the repo
  
- git clone https://github.com/muchem/AbCrunch.git
+ git clone https://github.com/muchem/The-Post.git
  
  2.Open Project Folder
  
