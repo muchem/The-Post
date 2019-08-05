@@ -50,6 +50,9 @@ li{
       font-size:30px;
       color:#000;
   }
+  .content{
+      padding:0 10px 0 10px;
+  }
 .line{
     padding:50px;
 }
