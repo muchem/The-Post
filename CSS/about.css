@@ -43,7 +43,7 @@ li{
     font-size:25px;
 }
 .jumbotron{
-    background-image:url('http://www.kinyu-z.net/data/wallpapers/81/986738.jpg');
+    background-image:url('../images/About-Hero.jpg');
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
