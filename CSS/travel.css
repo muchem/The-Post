@@ -3,7 +3,9 @@
     padding: 0px;
     font-family: 'DM Serif Display', serif;
 }
-
+body{
+    background-color: red;
+}
 .navbar-nav {
     flex: 1;
 }
@@ -38,8 +40,14 @@ li {
     align-items: center;
 
 }
-
 #dropdownMenuButton {
     background-color: black;
     border: none;
+}
+.jumbotron{
+     background-image:url('https://www.fodors.com/wp-content/uploads/2018/12/UltimateHawaii__HERO_shutterstock_352827422.jpg');
+     background-repeat:no-repeat;
+     background-position:center;
+     background-size:cover;
+     height:70vh;
 }
