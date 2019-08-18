@@ -85,6 +85,23 @@ li {
 .destination-info{
     padding:30px 0 30px 0;
 }
+.line {
+    padding: 50px;
+}
+
+#icon {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-tl {
+    color: #f2f2f2;
+}
+
+footer {
+    background-color: rgb(10, 10, 10);
+    padding: 20px;
+}
 @media screen and (max-width:576px){
     .img-box{
         height:85%;
