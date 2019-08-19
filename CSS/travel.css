@@ -58,7 +58,7 @@ li {
     margin:0px;
 }
 .card-box{
-    margin-bottom:25px;
+    margin-bottom:30px;
    
 }
 .img-box{
@@ -71,7 +71,7 @@ li {
 .info{
  background-color:white;
  padding:5px;
- height:30%;
+
 
 }
 .info p{
@@ -91,7 +91,7 @@ li {
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
-    padding-bottom:100px;
+    padding-bottom:50px;
 }
 .line {
     padding: 50px;
@@ -109,7 +109,7 @@ li {
 footer {
     background-color: rgb(10, 10, 10);
     padding: 20px;
-    margin-top:30px;
+   
 }
 
     
@@ -133,13 +133,24 @@ footer {
     .img-box {
         height: 85%;
     }
-
+    .card-box {
+    margin-bottom: 80px;
+    }
     .info {
-        height: 20%;
+    
     }
 
     .hero-header {
         font-size: 2.8rem;
+    }
+    .destination-hero{
+      background: #0f0c29;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     }
     
     li {
