@@ -66,6 +66,11 @@ nav{
 .left{
   background-color:rgb(17, 17, 17);
 }
+.custom-container{
+    margin:0 auto;
+    margin-top:10px;
+    width:1420px;
+}
   .showcase{/*https://wallup.net/wp-content/uploads/2017/03/27/325610-women-face-digital_art-portrait-vintage-paper-old_paper-text-newspapers-paint_splatter-artwork-flowers-circle-stars.jpg*/
     background-image:url('../images/news.jpg');
     background-repeat:no-repeat;
@@ -97,7 +102,13 @@ h6{
      font-size:18px;
      padding-top:10px;
  }
-
+@media screen and (max-width:1420px){
+    .custom-container {
+    
+        margin-top: 0px;
+        width: 95vw;
+    }
+}
   @media screen and (max-width:768px){
     .img{
         height:300px;
