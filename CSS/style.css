@@ -1,9 +1,10 @@
 *{
      margin:0px;
-     font-family: 'DM Serif Display', serif;
+    font-family: 'DM Serif Display', serif;
+    
 }
 .container{
-    margin-top:30px;
+    margin-top:50px;
 }
 body{
     background: #000000;  /* fallback for old browsers */
@@ -106,7 +107,7 @@ h6{
     .custom-container {
     
         margin-top: 0px;
-        width: 95vw;
+        width: 97vw;
     }
 }
   @media screen and (max-width:768px){
