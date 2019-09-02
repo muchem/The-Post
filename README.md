@@ -31,7 +31,10 @@ Melissa Uchem
 
 
 ## Acknowledgments
-Design Inspiration
+Idea/Design Inspiration
+
+
+Spotlight 2015(film):https://en.wikipedia.org/wiki/Spotlight_(film)
 
 
 Cnn: https://www.cnn.com/
