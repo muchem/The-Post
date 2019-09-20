@@ -15,7 +15,7 @@ git bash
  
  2.Open Project Folder
  
- 3.Open index.html in your favorite browser
+ 3.Open index.html in your favorite browser.
  
  4.Explore
 
