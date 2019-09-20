@@ -4,7 +4,7 @@
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ## Prerequisites
-What things you need to install the software and how to install them
+What things you need to install the software and how to install them.
 
 git bash
 
@@ -15,7 +15,7 @@ git bash
  
  2.Open Project Folder
  
- 3.Open index.html in your favorite browser
+ 3.Open index.html in your favorite browser.
  
  4.Explore
 
@@ -25,9 +25,19 @@ Built With
 
 
 ## Contributors
-
+Melissa Uchem
 
 ## License
 
 
 ## Acknowledgments
+Idea/Design Inspiration
+
+
+Spotlight 2015(film):https://en.wikipedia.org/wiki/Spotlight_(film)
+
+
+Cnn: https://www.cnn.com/
+
+
+CBS:https://www.cbs.com/
