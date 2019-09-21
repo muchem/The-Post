@@ -1,0 +1,9 @@
+Landing page Todos
+add header hover affect (color change to red)
+add topic list by trending headlines (display:none on small screens)
+reomve container from
+add navbar affect(stick on scroll)
+adjust fonts and boldness
+
+fix travel page
+fix fashion page
