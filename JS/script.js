@@ -3,6 +3,7 @@
       let outputLeft = "";
       const htmlRight = document.getElementById('Right-section');
       let outputRight = "";
+      const other = document.getElementById('other-section');
       let linktx = "Continue reading here";
       let imgalt = "image not available";
        
@@ -32,6 +33,7 @@
    }
 
      htmlRight.innerHTML = outputRight;
+     other.innerHTML = outputLeft;
    }
   
    getPost();
