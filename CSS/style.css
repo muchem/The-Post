@@ -55,6 +55,10 @@ img{
     height: 250px;
     background: #aaa;
 }
+.trend-header{
+    color:red;
+    padding:5px 0px;
+}
 nav{
     background-color:black;
 }
@@ -87,7 +91,7 @@ nav{
   .footer-tl{
       color:#f2f2f2;
   }
-  .container-fluid{
+ footer{
     background-color:rgb(10, 10, 10);
     padding:20px;
   }
