@@ -30,7 +30,7 @@ nav{
 color:black;
 margin:12px 5px 0 10px;
 padding-right: 10px;
-border-right: #aaa solid 1px;
+border-right: rgb(192, 192, 192) solid 1px;
 }
 .trend-bar{
     display:flex;
