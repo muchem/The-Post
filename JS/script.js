@@ -12,7 +12,7 @@
       const data =  await responce.json();
   
    for(let i=0; i <= 9; i++){ 
-     outputLeft += "<strong>" + "<h3>" + data.articles[i].title +
+     outputLeft += "<strong>" + "<h3 class = 'article-header'>" + data.articles[i].title +
     "<h6>" + data.articles[i].publishedAt ;
     outputLeft += "<img src = '" + data.articles[i].urlToImage + "' " + "alt='" + imgalt + "'>";
     outputLeft += "<br>" +  "<h5>" + data.articles[i].description + "<br>" +
@@ -23,7 +23,7 @@
      htmlLeft.innerHTML = outputLeft;
     
    for(let i = 10; i<=19; i++){
-   outputRight += "<strong>" + "<h3>" + data.articles[i].title +
+   outputRight += "<strong>" + "<h3 class = 'article-header'>" + data.articles[i].title +
    "<h6>" + data.articles[i].publishedAt ;
    outputRight += "<img src = '" + data.articles[i].urlToImage + "' " + "alt='" + imgalt + "'>";
    outputRight +=  "<h5>" + data.articles[i].description + "<br>" +

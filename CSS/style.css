@@ -4,16 +4,17 @@
     font-family:'sans serif';
     
 }
-.jumbotron h1,h4{
+.jumbotron h1 h4{
     font-family: 'DM Serif Display',
     serif;
 }
 .custom-container {
     margin-top:100px;
 }
-body{
-} 
-
+.article-header:hover{
+    color:rgb(218, 44, 44);
+    cursor:pointer;
+}
 .col-md-8,.col-md-4{
     padding:10px 10px 20px 20px;
 }
