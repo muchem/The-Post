@@ -4,6 +4,10 @@
     font-family:'sans serif';
     
 }
+nav{
+    font-family: 'DM Serif Display',
+    serif;
+}
 .jumbotron h1 h4{
     font-family: 'DM Serif Display',
     serif;
@@ -14,6 +18,23 @@
 .article-header:hover{
     color:rgb(218, 44, 44);
     cursor:pointer;
+}
+.topic-list{
+    display:flex;
+    padding-left:0px;
+   
+
+
+}
+.topic-list li{
+color:black;
+margin:12px 5px 0 10px;
+padding-right: 10px;
+border-right: #aaa solid 1px;
+}
+.trend-bar{
+    display:flex;
+    align-items: center;
 }
 .col-md-8,.col-md-4{
     padding:10px 10px 20px 20px;
@@ -38,9 +59,7 @@
 #search-icon:hover{
     cursor: pointer;
 }
-h3{
-    font-weight:5100px;
-}
+
 li{
     list-style:none;
     margin-right:5px;
