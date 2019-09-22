@@ -1,10 +1,10 @@
   async function getPost(){
       const htmlLeft = document.getElementById('left-section');
       let outputLeft = "";
-      const htmlRight = document.getElementById('Right-section');
+      const htmlCenter = document.getElementById('center-section');
+      let outputCenter = "";
+      const htmlRight = document.getElementById('right-section');
       let outputRight = "";
-      const other = document.getElementById('other-section');
-      let outputother = "";
       let linktx = "Continue reading here";
       let imgalt = "image not available";
        
@@ -24,26 +24,26 @@
      htmlLeft.innerHTML = outputLeft;
     
    for(let i = 7; i<=12; i++){
-   outputRight += "<h3 class = 'article-header'>" + data.articles[i].title +
+   outputCenter += "<h3 class = 'article-header'>" + data.articles[i].title +
    "<h6>" + data.articles[i].publishedAt ;
-   outputRight += "<img src = '" + data.articles[i].urlToImage + "' " + "alt='" + imgalt + "'>";
-   outputRight +=  "<h5>" + data.articles[i].description + "<br>" +
+   outputCenter += "<img src = '" + data.articles[i].urlToImage + "' " + "alt='" + imgalt + "'>";
+   outputCenter +=  "<h5>" + data.articles[i].description + "<br>" +
    "<p>" + data.articles[i].content + "<br>" ;
-   outputRight += "<br>"+ "<a href = '" + data.articles[i].url +"' " + "target='" + "_blank"+ "'>"+ linktx +'</a>'; 
+   outputCenter += "<br>"+ "<a href = '" + data.articles[i].url +"' " + "target='" + "_blank"+ "'>"+ linktx +'</a>'; 
 
    }
 
-     htmlRight.innerHTML = outputRight;
+     htmlCenter.innerHTML = outputCenter;
 
     for (let i = 13; i <= 18; i++){
-      outputother += "<h3 class = 'article-header'>" + data.articles[i].title +
+      outputRight += "<h3 class = 'article-header'>" + data.articles[i].title +
         "<h6>" + data.articles[i].publishedAt;
-      outputother += "<img src = '" + data.articles[i].urlToImage + "' " + "alt='" + imgalt + "'>";
-      outputother += "<h5>" + data.articles[i].description + "<br>" +
+      outputRight += "<img src = '" + data.articles[i].urlToImage + "' " + "alt='" + imgalt + "'>";
+      outputRight += "<h5>" + data.articles[i].description + "<br>" +
         "<p>" + data.articles[i].content + "<br>";
-      outputother += "<br>" + "<a href = '" + data.articles[i].url + "' " + "target='" + "_blank" + "'>" + linktx + '</a>'; 
+      outputRight += "<br>" + "<a href = '" + data.articles[i].url + "' " + "target='" + "_blank" + "'>" + linktx + '</a>'; 
     }
-    other.innerHTML = outputother ; 
+    htmlRight.innerHTML = outputRight ; 
    }
   
    getPost();

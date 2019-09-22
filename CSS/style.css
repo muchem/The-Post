@@ -135,12 +135,13 @@ h6{
      font-size:18px;
      padding-top:10px;
  }
-@media screen and (max-width:1420px){
-    .custom-container {
-    
-        margin-top: 0px;
-        width: 97vw;
+@media screen and (max-width:1024px){
+    .list-box {
+        display: none;
     }
+}
+@media screen and (max-width:992px) {
+
 }
   @media screen and (max-width:768px){
     .img{
