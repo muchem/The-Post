@@ -1,7 +1,7 @@
 *{
      margin:0px;
-    /*font-family: 'DM Serif Display', serif;*/
-    font-family:'sans serif';
+font-family:'sans serif'
+      /*';  font-family: 'DM Serif Display', serif;*/
     
 }
 nav{
@@ -26,6 +26,10 @@ nav{
 
 
 }
+.article-header{
+    font-weight:bold;
+    color:rgba(29, 29, 29, 0.933);
+}
 .topic-list li{
 color:black;
 margin:12px 5px 0 10px;
@@ -34,6 +38,7 @@ border-right: rgb(192, 192, 192) solid 1px;
 }
 .trend-bar{
     display:flex;
+
     align-items: center;
 }
 .col-md-8,.col-md-4{
