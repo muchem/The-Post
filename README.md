@@ -9,7 +9,7 @@ What things you need to install the software and how to install them.
 git bash
 
 ## Installing
- 1.Clone the repo
+ 1.Clone the repo/
  
  git clone https://github.com/muchem/The-Post.git
  
