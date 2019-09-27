@@ -4,18 +4,20 @@ font-family:'sans serif'
       /*';  font-family: 'DM Serif Display', serif;*/
     
 }
-nav{
-    font-family: 'DM Serif Display',
-    serif;
+.nav-item a,
+.navbar-brand {
+     font-family: 'DM Serif Display',
+     serif;
 }
-.jumbotron h1 h4{
+.jumbotron h1,h4{
     font-family: 'DM Serif Display',
     serif;
 }
 .custom-container {
     margin-top:100px;
 }
-.article-header:hover{
+
+.article-header:hover {
     color:rgb(218, 44, 44);
     cursor:pointer;
 }

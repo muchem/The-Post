@@ -13,13 +13,22 @@
       const data =  await responce.json();
   
    for(let i=0; i <= 6; i++){ 
-     outputLeft += "<h3 class = 'article-header'>" + data.articles[i].title +
+       /* outputLeft = `
+        <h3 class = 'article-header'>${data.articles[i].title}</h3>
+        <h6>${data.articles[i].publishedAt}</h6>
+        <img src = "${data.articles[i].urlToImage}" alt = "${imgalt}" height =50px> <br>
+        <p>${data.articles[i].content}</p><br>
+        <h5>${data.articles[i].description}</h5><br><br>
+        <a href = '${ data.articles[i].url} target = "_blank">'${linktx}'</a>
+     `
+   }*/
+     outputLeft += "<h3 class = 'article-header'>" + data.articles[i].title;
     "<h6>" + data.articles[i].publishedAt ;
     outputLeft += "<img src = '" + data.articles[i].urlToImage + "' " + "alt='" + imgalt + "'>";
     outputLeft += "<br>" +  "<h5>" + data.articles[i].description + "<br>" +
     "<p>" + data.articles[i].content + "<br>";
     outputLeft += "<br>"+ "<a href = '" + data.articles[i].url +"' " + "target='" + "_blank"+ "'>"+ linktx +'</a>'; 
-   }
+   } 
 
      htmlLeft.innerHTML = outputLeft;
     
