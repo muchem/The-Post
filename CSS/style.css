@@ -24,9 +24,6 @@ font-family:'sans serif'
 .topic-list{
     display:flex;
     padding-left:0px;
-   
-
-
 }
 .article-header{
     font-weight:bold;
@@ -40,7 +37,6 @@ border-right: rgb(192, 192, 192) solid 1px;
 }
 .trend-bar{
     display:flex;
-
     align-items: center;
 }
 .col-md-8,.col-md-4{
@@ -50,7 +46,6 @@ border-right: rgb(192, 192, 192) solid 1px;
     background-color:black;
     border:none;
 }
-
 .navbar-nav{
     flex:1;
 }
